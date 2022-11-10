@@ -82,7 +82,7 @@
         top: 0%;
       }     
       .hi{
-        position:inherit; bottom: 0px; 
+        position:absolute; bottom: 0px; 
         background-color: rgba(79, 192, 141, 0.5);
         height: 300px;
         width: 100%;
@@ -108,10 +108,15 @@
           margin-top: 15px;
           margin-left: 10px;  
       }
-      @media only screen and (max-width:500px) {        
+      @media only screen and (max-width:768px) {        
         .abstand {margin-left: 10px;}
         .box{
           width: 300px;
         }
+        .hi{
+          position: inherit;
+          margin-top: 100px
+
+        }
       }
-</style
+  </style>
